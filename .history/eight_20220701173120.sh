@@ -79,7 +79,7 @@ case $random in
     10)
         echo "Signs point to yes" > eightBall.txt
         echo "$date + " " + $question" >> log.txt
-        echo "$date + Signs point to yes" >> log.txt
+        echo "Signs point to yes" >> log.txt
         ;;
     *)
         echo "Reply hazy, try again" > eightBall.txt
