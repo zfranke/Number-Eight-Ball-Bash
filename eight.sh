@@ -5,7 +5,9 @@ random=$(( ( RANDOM % 10 ) + 1 ))
 date=$(date +%Y-%m-%d)
 
 # Echo a greeting message to the user
+echo "############################################################"
 echo "Welcome to the Eight Ball Script!"
+echo "############################################################"
 
 #Delay for 3 seconds
 sleep 3
