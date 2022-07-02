@@ -14,10 +14,8 @@ sleep 3
 echo "Please enter a question:"
 read question
 
-echo " "
 echo "Your question is: "
 echo $question
-echo " "
 
 sleep 2
 
